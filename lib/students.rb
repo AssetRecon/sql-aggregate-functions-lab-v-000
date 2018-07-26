@@ -5,13 +5,17 @@ def highest_student_gpa
 end
 
 def lowest_student_gpa
+  "SELECT MIN(gpa) FROM cats;"
 end
 
 def average_student_gpa
+  "SELECT AVG(gpa) FROM cats;"
 end
 
 def total_tardies_for_all_students
+  "SElECT SUM(tardies) from cats;"
 end
 
 def average_gpa_for_9th_grade
+  "SELECT avg(GPA) FOR grade = 9;"
 end
